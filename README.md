@@ -6,3 +6,4 @@ O exemplo não é 100% funcional (não acessa o banco e nem a api de cliente), m
 
 Se quiser testar a inversão, exclua os projetos Api e InfraNova, e tente compilar a solution. Veja que vai compilar normalmente, pois o core do sistema (Domain e Application) não depende do resto da solution - ou seja, é possível trocar as classes de infra por tecnologias diferentes ou mudar o output para um console application sem impactar as regras de negócio.
 
+Lembrando que o objetivo desse exemplo não é ser um guia de estrutura de solutions ou algo do tipo, é só para ilustrar o que foi discutido na aula.
