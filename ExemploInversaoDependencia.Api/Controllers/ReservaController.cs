@@ -18,7 +18,7 @@ namespace ExemploInversaoDependencia.Api.Controllers
         public async Task<IActionResult> Incluir(IncluirReservaCmd req)
         {
             var res = await Mdtr.Send(req);
-            return Ok(res);
+            return Created("/", res);
         }
     }
 }
