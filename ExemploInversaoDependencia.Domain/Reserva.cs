@@ -28,8 +28,8 @@ namespace ExemploInversaoDependencia.Domain
                 DataSaida = saida,
                 CpfCliente = cpfCliente,
                 NomeCliente = nomeCliente,
-                StatusReserva = 1,
-                UltimaAtualizacao = DateTime.Now
+                StatusReserva = 2,
+                UltimaAtualizacao = DateTime.Today
             };
 
             return reserva;
